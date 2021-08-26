@@ -23,5 +23,3 @@ def predict():
     except Exception:
         return json.dumps({"error": "PREDICTION FAILED"}), 500
 
-#if __name__ == "__main__":
-  #app.run(debug=True)
